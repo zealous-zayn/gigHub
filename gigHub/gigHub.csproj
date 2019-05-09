@@ -194,6 +194,10 @@
     <Compile Include="Migrations\201905031257371_AddForeignKetPropertiesToGig.Designer.cs">
       <DependentUpon>201905031257371_AddForeignKetPropertiesToGig.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201905090902595_AddNameToApplicationUser.cs" />
+    <Compile Include="Migrations\201905090902595_AddNameToApplicationUser.Designer.cs">
+      <DependentUpon>201905090902595_AddNameToApplicationUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -205,6 +209,7 @@
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\FutureDate.cs" />
     <Compile Include="ViewModels\GigFromViewModel.cs" />
+    <Compile Include="ViewModels\RegisterViewModel.cs" />
     <Compile Include="ViewModels\ValidTime.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -296,6 +301,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201905031257371_AddForeignKetPropertiesToGig.resx">
       <DependentUpon>201905031257371_AddForeignKetPropertiesToGig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905090902595_AddNameToApplicationUser.resx">
+      <DependentUpon>201905090902595_AddNameToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

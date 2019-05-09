@@ -45,7 +45,7 @@ span.field-validation-error {
 
     .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
         color: #fff;
-        background-color: #de2322c7;
+        background-color: rgba(222, 35, 34, 0.7803921568627451);
     }
 body {
     font-size: 17px;
